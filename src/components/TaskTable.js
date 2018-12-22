@@ -27,6 +27,7 @@ class TaskTable extends Component{
         //using spread syntax or directly cloning it and 
         //setting to the corresponding state property
         this.setState({
+            value: '',
             tasks: [...this.state.tasks, this.state.value]
         });
     }
